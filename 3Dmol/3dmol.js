@@ -20,8 +20,12 @@ $3Dmol = (function(window) {
    is very helpful when reporting to funding agencies.  Please
    leave this code in if you would like to increase the 
    likelihood of 3Dmol.js remaining supported.
+
+   As this breaks strict https setups, it's disabled until upstream
+   provides access via https.
+
+   $.get("http://3dmol.csb.pitt.edu/track/report.cgi");
 */
-$.get("http://3dmol.csb.pitt.edu/track/report.cgi");
     
 /**
  * Create and initialize an appropriate viewer at supplied HTML element using specification in config
