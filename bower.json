@@ -1,0 +1,25 @@
+{
+  "name": "3Dmol",
+  "description": "Object oriented Javascript molecular visualization library",
+  "main": "release/3Dmol-min.js",
+  "authors": [
+    "David Koes",
+    "Nick Rego"
+  ],
+  "license": "BSD",
+  "keywords": [
+    "3d",
+    "webgl",
+    "protein",
+    "molecule"
+  ],
+  "homepage": "http://3dmol.csb.pitt.edu",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
